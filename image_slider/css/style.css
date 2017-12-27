@@ -260,7 +260,9 @@ header {
 .logo a span.b3 {font-weight:400;}
 .logo a span.b5 {font-weight:100;}
 
-
+.logoimg{
+    margin-top: 20px;
+}
 
 
 /* __________ Menu __________ */
