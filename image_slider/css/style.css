@@ -509,13 +509,6 @@ ul.project_info li span {color:#979797;}
 .our_clients .client_img:hover {opacity:1;}
 
 
-
-
-
-
-
-
-
 /*-----------------------------------------------------------------------------------*/
 /*	OUR TEAM
 /*-----------------------------------------------------------------------------------*/
@@ -606,9 +599,41 @@ ul.project_info li span {color:#979797;}
     border-color:#fff;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*	VIDEOS
+/*-----------------------------------------------------------------------------------*/
+#video{
+/*    padding:75px 0 100px;
+    background-size:cover;
+    background-attachment:fixed !important;*/
+}
+.video{
+    
+    background-color: #ffffff;
+    webkit-box-shadow: -6px 17px 56px 0px rgba(0,0,0,0.75);
+    moz-box-shadow: -6px 17px 56px 0px rgba(0,0,0,0.75);
+    box-shadow: -6px 17px 56px 0px rgba(0,0,0,0.75);
+    border: 2px solid;
+    height:0%;
+    width:31%;
+    padding-top:50.25%; 
+    /*Relación: 16/9 = 56.25%*/ 
+    position:relative;
 
-
-
+}
+.video1{
+     background-color: #ffffff;
+    webkit-box-shadow: -6px 17px 56px 0px rgba(0,0,0,0.75);
+    moz-box-shadow: -6px 17px 56px 0px rgba(0,0,0,0.75);
+    box-shadow: -6px 17px 56px 0px rgba(0,0,0,0.75);
+}
+.src{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+}
 
 
 
