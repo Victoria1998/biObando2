@@ -521,7 +521,7 @@ ul.project_info li span {color:#979797;}
 /*-----------------------------------------------------------------------------------*/
 #team {
     padding:75px 0 100px;
-    background-image:url(../images/team_bg.jpg);
+    /*background-image:url(../images/team_bg.jpg);*/
     background-size:cover;
     background-attachment:fixed !important;
 }
@@ -1062,8 +1062,8 @@ input[type="color"]:focus {
 /*-----------------------------------------------------------------------------------*/
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
-    .parallax, .cleancode_block, #team, .top_slider .slide1, .top_slider .slide2, .top_slider .slide3 {background-attachment:scroll !important; background-position:0 0;}
-    .top_slider .slide1, .top_slider .slide2, .top_slider .slide3 {background-size:cover !important;}
+    .parallax, .cleancode_block, #team, .top_slider .slide1, .top_slider .slide2, .top_slider .slide3,.top_slider .slide4, .top_slider .slide5, .top_slider .slide6, .top_slider .slide7 {background-attachment:scroll !important; background-position:0 0;}
+    .top_slider .slide1, .top_slider .slide2, .top_slider .slide3, .top_slider .slide4, .top_slider .slide5, .top_slider .slide6, .top_slider .slide7 {background-size:cover !important;}
 
 }
 
