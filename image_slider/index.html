@@ -390,17 +390,17 @@
                             <div class="span9 contact_form">
                                 <div id="note"></div>
                                 <div id="fields">
-                                    <form id="contact-form-face" class="clearfix" action="#">
-                                        <input type="text" name="name" value="Nombre" onFocus="if (this.value == 'Nombre')
+                                    <form id="contact-form-face" class="clearfix" action="guardar.php" method="post">
+                                        <input type="text" name="nombreApellido" value="Nombre" onFocus="if (this.value == 'Nombre')
                                                     this.value = '';" onBlur="if (this.value == '')
                                                                 this.value = 'Nombre';" />
-                                        <input type="text" name="name" value="Correo" onFocus="if (this.value == 'Correo')
+                                        <input type="text" name="correo" value="Correo" onFocus="if (this.value == 'Correo')
                                                     this.value = '';" onBlur="if (this.value == '')
                                                                 this.value = 'Correo';" />
-                                        <input type="text" name="name" value="Telefono" onFocus="if (this.value == 'Telefono')
+                                        <input type="text" name="telefono" value="Telefono" onFocus="if (this.value == 'Telefono')
                                                     this.value = '';" onBlur="if (this.value == '')
                                                                 this.value = 'Telefono';" />
-                                        <textarea name="message" onFocus="if (this.value == 'Mensaje')
+                                        <textarea name="mensage" onFocus="if (this.value == 'Mensaje')
                                                     this.value = '';" onBlur="if (this.value == '')
                                                                 this.value = 'Mensaje';"></textarea>
                                         <input class="contact_btn" type="submit" value="Enviar" />
