@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-01-2018 a las 16:00:03
+-- Tiempo de generación: 17-01-2018 a las 17:36:54
 -- Versión del servidor: 10.1.28-MariaDB
 -- Versión de PHP: 7.1.10
 
@@ -38,20 +38,6 @@ CREATE TABLE `contacto` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
 
 --
--- Volcado de datos para la tabla `contacto`
---
-
-INSERT INTO `contacto` (`idContacto`, `fecha`, `nombreApellido`, `correo`, `telefono`, `mensage`) VALUES
-(4, '2018-01-05 21:42:45', 'VICTORIA', '', 0, ''),
-(5, '2018-01-05 22:16:13', 'victoria', 'vicky@gmaail.com', 3113226491, ''),
-(6, '2018-01-05 22:17:25', 'ana', 'ana@gmail.com', 3113226491, ''),
-(7, '2018-01-05 22:20:47', 'ana yulieth', 'ana@gmail.com', 3206666, ''),
-(8, '2018-01-05 22:23:07', 'ana yulieth', 'ana@gmail.com', 2132112, ''),
-(9, '2018-01-05 22:26:13', 'maria', 'NN@NN', 3113226491, 'jajajajaja'),
-(10, '2018-01-05 22:29:14', 'ana yulieth', 'ana@gmail.com', 2132112, 'jejeblablaba ok'),
-(11, '2018-01-09 17:03:27', 'NN', 'NN@NN', 671648716, 'FKJSGFJHGSDHAFGNADBNXC');
-
---
 -- Índices para tablas volcadas
 --
 
@@ -69,7 +55,7 @@ ALTER TABLE `contacto`
 -- AUTO_INCREMENT de la tabla `contacto`
 --
 ALTER TABLE `contacto`
-  MODIFY `idContacto` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `idContacto` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
